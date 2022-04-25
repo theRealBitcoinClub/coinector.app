@@ -5,6 +5,148 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+"redirects": [
+  {
+    "source": "/iphone",
+    "destination": "https://apps.apple.com/us/app/coinmap-bitcoin-map/id1522720562",
+    "type": 301
+  },
+  {
+    "source": "/ios",
+    "destination": "https://apps.apple.com/us/app/coinmap-bitcoin-map/id1522720562",
+    "type": 301
+  },
+  {
+    "source": "/android",
+    "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.coinector",
+    "type": 301
+  },
+  {
+    "source": "/trbc",
+    "destination": "https://bitcoinmap.cash/bitcoin-bch-dash-qr-code-generator?bch=qqflpcrguu8wnud3yhy302jt9a4hht822gvzuuu374&dash=XkXE3JJCvNZqc6zXg664MNyYxRpPB4suZG",
+    "type": 301
+  },
+  {
+    "source": "/donate",
+    "destination": "https://bitcoinmap.cash/bitcoin-bch-dash-qr-code-generator?bch=qqflpcrguu8wnud3yhy302jt9a4hht822gvzuuu374&dash=XkXE3JJCvNZqc6zXg664MNyYxRpPB4suZG",
+    "type": 301
+  },
+  {
+    "source": "/submit",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdOZO7kOgq6_PTTiuKWlVaNSjRH0TmL7KHC1RMunad0qFe3ag/viewform",
+    "type": 301
+  },
+  {
+    "source": "/add",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdOZO7kOgq6_PTTiuKWlVaNSjRH0TmL7KHC1RMunad0qFe3ag/viewform",
+    "type": 301
+  },
+  {
+    "source": "/qr",
+    "destination": "https://bitcoinmap.cash/bitcoin-bch-dash-qr-code-generator",
+    "type": 301
+  },
+  {
+    "source": "/submit",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdOZO7kOgq6_PTTiuKWlVaNSjRH0TmL7KHC1RMunad0qFe3ag/viewform",
+    "type": 301
+  },
+  {
+    "source": "/en",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdOZO7kOgq6_PTTiuKWlVaNSjRH0TmL7KHC1RMunad0qFe3ag/viewform",
+    "type": 301
+  },
+  {
+    "source": "/es",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdzk5QNqaqDboJ8YZ6hTmT4caa54y5DjvsNy06eX3Qvrr8tzQ/viewform",
+    "type": 301
+  },
+  {
+    "source": "/fr",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdUmOsESQ7b4QPZfglsnSgrv1S1c-X9zGSerD4PpKct8g545Q/viewform",
+    "type": 301
+  },
+  {
+    "source": "/it",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSfOBGg2nVJotuN0GSxx_xG6uXpwaxA579BCP6CCQyP7691tBw/viewform",
+    "type": 301
+  },
+  {
+    "source": "/id",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSfxYdbQ5OB-skvDFSY8QjCb7aduHowYaNDDYOEGW5fA1NF38A/viewform",
+    "type": 301
+  },
+  {
+    "source": "/jp",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSfy3ZzYnAMDo9fcjTjCqsMimb-DbeNWoWDC_OWBc4mzQlA0ZA/viewform",
+    "type": 301
+  },
+  {
+    "source": "/ja",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSfy3ZzYnAMDo9fcjTjCqsMimb-DbeNWoWDC_OWBc4mzQlA0ZA/viewform",
+    "type": 301
+  },
+  {
+    "source": "/de",
+    "destination": "https://docs.google.com/forms/d/e/1FAIpQLSeFNNUVWZtdvSLRKZWwtn-wD7PAOiO4jXUHXPyVMTDPnca24w/viewform",
+    "type": 301
+  },
+  {
+    "source": "/localbitcoinmap",
+    "destination": "https://play.google.com/store/apps/details?id=club.therealbitcoin.bchmap",
+    "type": 301
+  },
+  {
+    "source": "/coinector",
+    "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.coinector",
+    "type": 301
+  },
+  {
+    "source": "/dashtext",
+    "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.dashtext",
+    "type": 301
+  },
+  {
+    "source": "/cointext",
+    "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.cointext",
+    "type": 301
+  },
+  {
+    "source": "/cointigo",
+    "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.cointigo",
+    "type": 301
+  },
+  {
+    "source": "/teaser",
+    "destination": "https://coinmap.cash/",
+    "type": 301
+  },
+  {
+    "source": "/coinmap",
+    "destination": "https://coinmap.cash/",
+    "type": 301
+  },
+  {
+    "source": "/dl",
+    "destination": "https://therealbitcoinclub.github.io/",
+    "type": 301
+  },
+  {
+    "source": "/download",
+    "destination": "https://therealbitcoinclub.github.io/",
+    "type": 301
+  },
+  {
+    "source": "/install",
+    "destination": "https://therealbitcoinclub.github.io/",
+    "type": 301
+  },
+  {
+    "source": "/release",
+    "destination": "https://therealbitcoinclub.github.io/",
+    "type": 301
+  }
+]
   }
 }
