@@ -146,7 +146,27 @@
     "source": "/release",
     "destination": "https://therealbitcoinclub.github.io/",
     "type": 301
-  }
-]
-  }
+  },
+      {
+        "source": "/manager",
+        "destination": "https://github.com/theRealBitcoinClub/flutter_coinector/releases/tag/manager",
+        "type": 301
+      },
+      {
+        "source": "/apk",
+        "destination": "https://github.com/theRealBitcoinClub/flutter_coinector/releases/tag/public",
+        "type": 301
+      },
+      {
+        "source": "/adminReview",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdcnfu7r5_xe2gl3I0KWQ8bgB5tiUFE0ZhaMwI52oJ__RQiWA/viewform",
+        "type": 301
+      },
+      {
+        "source": "/geolocation",
+        "destination": "https://geolocation-db.com/json/",
+        "type": 301
+
+      }
+  ]}
 }
