@@ -11,9 +11,6 @@
       "headers" : [{
         "key" : "Access-Control-Allow-Origin",
         "value" : "*"
-      },{
-        "key" : "Access-Control-Allow-Credentials",
-        "value" : "true"
       }]
     }],
 "redirects": [
@@ -180,6 +177,11 @@
   {
     "source": "/updatecheck",
     "destination": "https://raw.githubusercontent.com/theRealBitcoinClub/flutter_coinector/master/dataUpdateIncrementVersion.txt",
+    "type": 301
+  },
+  {
+    "source": "/geolocation2",
+    "destination": "https://api.ipgeolocation.io/ipgeo?apiKey=1eee688bf62d48979d54739f383d9364",
     "type": 301
   }
   ]}
