@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "coinector"
-  }
+    "default": "coinector",
+    "staging": "bitcoinmap-testing"
+  },
+  "targets": {}
 }
