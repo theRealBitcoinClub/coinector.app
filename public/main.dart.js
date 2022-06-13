@@ -47706,10 +47706,8 @@ if(s.id==null||s.ok)return
 s.Gm().bm(0,new A.avn(s),t.P)},
 Gm(){var s=0,r=A.N(t.yq),q,p=this,o,n,m,l,k
 var $async$Gm=A.O(function(a,b){if(a===1)return A.K(b,r)
-while(true)$async$outer:switch(s){case 0:for(o=p.ay,n=0;n<o.length;++n)for(m=o[n].c,l=0;l<m.length;++l){k=m[l]
-if(k.ax!=null){q=!1
-s=1
-break $async$outer}p.zo(p.id,k)}q=!0
+while(true)switch(s){case 0:for(o=p.ay,n=0;n<o.length;++n)for(m=o[n].c,l=0;l<m.length;++l){k=m[l]
+p.zo(p.id,k)}q=!0
 s=1
 break
 case 1:return A.L(q,r)}})
@@ -47792,15 +47790,16 @@ break
 case 1:return A.L(q,r)}})
 return A.M($async$Fu,r)},
 alE(a){return A.p7(null,A.hT(B.qR,B.kr,null),null,new A.avs(this,a),"Search")},
-CN(a,b,c){var s,r,q,p=$.x8=!1
+CN(a,b,c){var s,r,q,p
+$.x8=!1
 A.c_("START startProcessSearch")
-if(b!=null){A.c_("START startProcessSearch2")
+if(b!=null&&b.length!==0){A.c_("START startProcessSearch2")
 A.c_("START filterListUpdateTitle")
 s=b.split(";")
 r=s[0]
 A.c_("START filterListUpdateTitle2")
 q=r.split(" - ")[0]
-if(s.length>1)p=!0
+p=s.length>1&&!0
 A.c_("START filterListUpdateTitle3")
 this.a_X(p,a,q)
 A.c_("START filterListUpdateTitle4")}else{A.c_("START startProcessSearch3")
